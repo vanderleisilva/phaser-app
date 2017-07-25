@@ -1,0 +1,28 @@
+{
+  "name": "phaser-app",
+  "version": "1.0.0",
+  "description": "a phaser offline game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanderleisilva/phaser-app.git"
+  },
+  "keywords": [
+    "phaser",
+    "localstorage",
+    "indexedDB",
+    "webSQL"
+  ],
+  "author": "Vanderlei Alves da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanderleisilva/phaser-app/issues"
+  },
+  "homepage": "https://github.com/vanderleisilva/phaser-app#readme",
+  "dependencies": {
+    "phaser": "^2.6.2"
+  }
+}
