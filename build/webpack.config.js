@@ -11,13 +11,9 @@ module.exports = {
     },
     module: {
         loaders: [{
-            test: /\.less$/,
-            loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")
-        }, 
-        {
-            test: /\.s[a|c]ss$/,
-            loader: 'style!css!sass'
-        }
+            test: /\.css$/,
+            loader: 'style!css'
+        },
         {
             test: /\.js$/,
             exclude: /node_modules|\/dist/,
